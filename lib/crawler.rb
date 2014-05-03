@@ -16,7 +16,7 @@ end
 #how to use the crawler class
 require('net/http')
 
-uri = URI('http://wwww.semaproperties.co.ug')
+uri = URI('http://wwww.someurl.com')
 http_request = Net::HTTP.Get.new()
 
 crawler = Crawler.new(uri, http)
