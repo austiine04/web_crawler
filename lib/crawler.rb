@@ -21,3 +21,6 @@ http_request = Net::HTTP.Get.new()
 
 crawler = Crawler.new(uri, http)
 crawler.crawl_given_url
+
+looks like an easy target for parsing
+http://search.knightfrank.ug/property-for-sale/uganda?buyrent=buy&viewall=true&view=grid
